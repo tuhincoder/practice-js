@@ -21,3 +21,5 @@ collage.events[3] = '26 december'
 // collage.unique.color = 'red'
 // console.log(collage);
 console.log(collage['unique'].result.gpa);
+delete collage.unique.result.gpa
+console.log(collage);
